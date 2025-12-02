@@ -1,0 +1,26 @@
+[project]
+name = "aoc2025"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Gianluca Mascolo",email = "gianluca.mascolo@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+package-mode = false
+
+[dependency-groups]
+dev = [
+    "isort (>=7.0.0,<8.0.0)",
+    "black (>=25.11.0,<26.0.0)",
+    "flake8 (>=7.3.0,<8.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
